@@ -2,8 +2,8 @@
 
 ## 具体功能
 
-- 微信公众号对接ChatGPT
-- 应用openAI的流式数据获取能力，结合公众号的客服消息实现流畅对话体验
+- 网页版ChatGPT聊天窗口实现 
+- 应用openAI的流式数据获取能力，开单独线程实现消息获取流畅体验
 - 应用redis的消息队列做数据处理
 - python Django框架设计web服务端
 - python gevent协程网络库提升并发性能
@@ -20,6 +20,6 @@
 - wechat：dyrslds
 
 ## ChatGPT体验
-- 作者已将功能集成到微信公众号 奇点涌现，大家也可以关注体验，日常也会分享一些ChatGPT和AI绘画的前沿用法
+- 作者一并将ChatGPT对话功能集成到微信公众号 奇点涌现，大家也可以关注体验，日常也会分享一些ChatGPT和AI绘画的前沿用法
 
 ![avatar](png/奇点涌现.png)
