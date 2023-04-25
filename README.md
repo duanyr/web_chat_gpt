@@ -1,4 +1,4 @@
-# wx_public_account_gpt
+# web_gpt_chat
 
 ## 具体功能
 
