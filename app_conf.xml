@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gm_rpcd_config>
+    <info config_name="app" version="1.0"/>
+    <config name="log_dir" value="/data/log/chat/app"/>
+    <config name="application_name" value="chat"/>
+    <config name="service_list">
+        <element value="chat"/>
+    </config>
+    <config name="initializer_list">
+        <element value="chat.django_init"/>
+        <element value="search.view.auto_tips"/>
+        <element value="associate.search.views.auto_tips"/>
+        <element value="associate.search.views.hotword_result"/>
+    </config>
+</gm_rpcd_config>
