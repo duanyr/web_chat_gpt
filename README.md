@@ -20,6 +20,6 @@
 - wechat：dyrslds
 
 ## ChatGPT体验
-- 作者一并将ChatGPT对话功能集成到微信公众号 奇点涌现，大家也可以关注体验，日常也会分享一些ChatGPT和AI绘画的前沿用法
+- 作者一并将ChatGPT对话功能集成到微信公众号 奇点涌现，大家可以关注体验，日常也会分享一些ChatGPT和AI绘画的前沿用法
 
 ![avatar](png/奇点涌现.png)
