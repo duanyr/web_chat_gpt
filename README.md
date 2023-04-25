@@ -16,6 +16,9 @@
 3. 安装依赖，pip install -r requirements.txt
 4. 运行服务，gunicorn chat.wsgi:application -w 1 -k gevent -b ip:port
 
+## 联系作者
+- wechat：dyrslds
+
 ## ChatGPT体验
 - 作者已将功能集成到微信公众号 奇点涌现，大家也可以关注体验，日常也会分享一些ChatGPT和AI绘画的前沿用法
 
