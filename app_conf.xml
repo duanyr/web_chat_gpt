@@ -8,8 +8,5 @@
     </config>
     <config name="initializer_list">
         <element value="chat.django_init"/>
-        <element value="search.view.auto_tips"/>
-        <element value="associate.search.views.auto_tips"/>
-        <element value="associate.search.views.hotword_result"/>
     </config>
 </gm_rpcd_config>

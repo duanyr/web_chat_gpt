@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 import os
 from .log_settings import *
 from datetime import timedelta
-from celery.schedules import crontab
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -30,7 +29,7 @@ DEBUG = False
 #CSRF_COOKIE_SECURE = True 
 #SESSION_COOKIE_SECURE = False
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ["http://www.znmcu.com","https://www.znmcu.com"]
+CSRF_TRUSTED_ORIGINS = []
 CELERY_TIMEZONE = 'Asia/Shanghai'
 CORS_ORIGIN_ALLOW_ALL = True   
 
@@ -94,8 +93,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-SECRET_KEY = 'h88p#*4t5l4&7^j4gfui%qs4x3wo(+u$1x2d1=p9cb)ogjr080'
-SENTRY_CELERY_ENDPOINT = 'http://06be719818aa4a19923ae84b3dff164e:cc7d930697394417a887f24e40212de4@sentry.wanmeizhensuo.com/24'
 REDIS_URL = "redis://127.0.0.1:6379"
 
 # Internationalization
